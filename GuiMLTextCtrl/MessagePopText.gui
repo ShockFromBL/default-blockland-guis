@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(MessagePopText) {
+   profile = "GuiTextProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "32 39";
+   extent = "236 14";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

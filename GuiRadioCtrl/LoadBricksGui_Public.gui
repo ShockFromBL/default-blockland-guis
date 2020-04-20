@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(LoadBricksGui_Public) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "578 265";
+   extent = "53 15";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "LoadBricksGui::ClickOwnership();";
+   text = "Public";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

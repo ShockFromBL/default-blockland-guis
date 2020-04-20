@@ -1,0 +1,21 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(lstAdminPlayerList) {
+   profile = "GuiTextListProfile";
+   horizSizing = "left";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "179 16";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   enumerate = "0";
+   resizeCell = "0";
+   columns = "0 120";
+   fitParentWidth = "1";
+   clipColumnText = "0";
+      sortedBy = "1";
+      sortedNumerical = "1";
+      sortedAsc = "1";
+};
+//--- OBJECT WRITE END ---

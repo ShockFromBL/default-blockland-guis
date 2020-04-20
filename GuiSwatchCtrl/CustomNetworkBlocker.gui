@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(CustomNetworkBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "157 4";
+   extent = "462 175";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "200 200 200 192";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(CustomGameGui_AdvancedHilight) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 130";
+   extent = "160 34";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "255 255 255 128";
+};
+//--- OBJECT WRITE END ---

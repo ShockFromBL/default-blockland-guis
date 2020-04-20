@@ -1,0 +1,35 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(HUD_BrickBox) {
+   profile = "HUDBitmapProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "640 719";
+   extent = "8 2";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "0 0 0 64";
+
+   new GuiBitmapCtrl(HUD_BrickActive) {
+      profile = "HUDBitmapProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "64 64";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      bitmap = "~/client/ui/brickicons/brickIconActive";
+      wrap = "0";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      keepCached = "0";
+      mColor = "255 255 255 255";
+      mMultiply = "0";
+   };
+};
+//--- OBJECT WRITE END ---

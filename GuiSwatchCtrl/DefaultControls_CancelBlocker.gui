@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(DefaultControls_CancelBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "top";
+   position = "17 275";
+   extent = "93 54";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

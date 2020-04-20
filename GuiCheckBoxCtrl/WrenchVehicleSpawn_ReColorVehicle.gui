@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(WrenchVehicleSpawn_ReColorVehicle) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "86 100";
+   extent = "163 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Re-Color Vehicle";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,45 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControlProfile(MiniGameListProfile) {
+   tab = "0";
+   canKeyFocus = "0";
+   mouseOverSelected = "0";
+   modal = "1";
+   opaque = "0";
+   fillColor = "200 200 200 255";
+   fillColorHL = "64 64 64 255";
+   fillColorNA = "200 200 200 255";
+   border = "0";
+   borderThickness = "1";
+   borderColor = "0 0 0 255";
+   borderColorHL = "128 128 128 255";
+   borderColorNA = "64 64 64 255";
+   fontType = "Arial";
+   fontSize = "18";
+   fontColors[0] = "255 0 0 255";
+   fontColors[1] = "255 128 0 255";
+   fontColors[2] = "255 255 0 255";
+   fontColors[3] = "0 255 0 255";
+   fontColors[4] = "0 128 0 255";
+   fontColors[5] = "0 255 255 255";
+   fontColors[6] = "0 128 128 255";
+   fontColors[7] = "0 128 255 255";
+   fontColors[8] = "255 128 255 255";
+   fontColors[9] = "0 0 0 255";
+   fontColor = "255 0 0 255";
+   fontColorHL = "255 128 0 255";
+   fontColorNA = "255 255 0 255";
+   fontColorSEL = "0 255 0 255";
+   fontColorLink = "0 128 0 255";
+   fontColorLinkHL = "0 255 255 255";
+   doFontOutline = "0";
+   fontOutlineColor = "255 255 255 255";
+   justify = "left";
+   textOffset = "0 0";
+   autoSizeWidth = "1";
+   autoSizeHeight = "1";
+   returnTab = "0";
+   numbersOnly = "0";
+   cursorColor = "0 0 0 255";
+   bitmap = "~/client/ui/BlockWindow";
+};
+//--- OBJECT WRITE END ---

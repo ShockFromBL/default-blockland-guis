@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextEditCtrl(SaveBricks_Description) {
+   profile = "GuiMLTextEditProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "23 325";
+   extent = "277 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

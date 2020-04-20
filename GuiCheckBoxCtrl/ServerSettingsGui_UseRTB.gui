@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(ServerSettingsGui_UseRTB) {
+   profile = "ImpactCheckProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "170 270";
+   extent = "168 34";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$ServerSettingsGui::UseRTB";
+   text = "Use RTB";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

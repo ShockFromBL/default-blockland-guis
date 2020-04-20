@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(OPT_ChatSize2) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "119 135";
+   extent = "16 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "OPT_SetChatSize(2);";
+   text = " ";
+   groupNum = "5";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

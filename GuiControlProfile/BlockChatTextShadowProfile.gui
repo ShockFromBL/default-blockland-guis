@@ -1,0 +1,45 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControlProfile(BlockChatTextShadowProfile) {
+   tab = "0";
+   canKeyFocus = "0";
+   mouseOverSelected = "0";
+   modal = "1";
+   opaque = "0";
+   fillColor = "200 200 200 255";
+   fillColorHL = "200 200 200 255";
+   fillColorNA = "200 200 200 255";
+   border = "0";
+   borderThickness = "0";
+   borderColor = "0 0 0 0";
+   borderColorHL = "128 128 128 255";
+   borderColorNA = "64 64 64 255";
+   fontType = "Arial";
+   fontSize = "14";
+   fontColors[0] = "0 0 0 255";
+   fontColors[1] = "0 0 0 255";
+   fontColors[2] = "0 0 0 255";
+   fontColors[3] = "0 0 0 255";
+   fontColors[4] = "0 0 0 255";
+   fontColors[5] = "0 0 0 255";
+   fontColors[6] = "0 0 0 255";
+   fontColors[7] = "0 0 0 0";
+   fontColors[8] = "0 0 0 0";
+   fontColors[9] = "0 0 0 0";
+   fontColor = "0 0 0 255";
+   fontColorHL = "0 0 0 255";
+   fontColorNA = "0 0 0 255";
+   fontColorSEL = "0 0 0 255";
+   fontColorLink = "0 0 0 255";
+   fontColorLinkHL = "0 0 0 255";
+   doFontOutline = "0";
+   fontOutlineColor = "255 255 255 255";
+   justify = "left";
+   textOffset = "3 0";
+   autoSizeWidth = "0";
+   autoSizeHeight = "0";
+   returnTab = "0";
+   numbersOnly = "0";
+   cursorColor = "0 0 0 255";
+   bitmap = "~/client/ui/BlockWindow";
+};
+//--- OBJECT WRITE END ---

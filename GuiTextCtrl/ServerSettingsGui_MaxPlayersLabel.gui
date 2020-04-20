@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(ServerSettingsGui_MaxPlayersLabel) {
+   profile = "ImpactTextProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 150";
+   extent = "160 34";
+   minExtent = "8 2";
+   enabled = "0";
+   visible = "1";
+   clipToParent = "1";
+   text = "Max Players: ";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

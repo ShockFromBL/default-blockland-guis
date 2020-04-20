@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(OPT_Mouse2) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "24 123";
+   extent = "117 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = " Two Button + Wheel";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

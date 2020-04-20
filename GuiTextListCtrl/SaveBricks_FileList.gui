@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(SaveBricks_FileList) {
+   profile = "BlockListProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "293 7180";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "SaveBricks_ClickFileList();";
+   enumerate = "0";
+   resizeCell = "1";
+   columns = "0 170";
+   fitParentWidth = "1";
+   clipColumnText = "0";
+      sortedBy = "0";
+      sortedNumerical = "0";
+      sortedAsc = "1";
+};
+//--- OBJECT WRITE END ---

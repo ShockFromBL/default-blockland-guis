@@ -1,0 +1,13 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiInputCtrl(OptRemapInputCtrl) {
+   profile = "GuiInputCtrlProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "64 64";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+};
+//--- OBJECT WRITE END ---

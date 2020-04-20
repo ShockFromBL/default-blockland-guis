@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(ColorSetSwatch22) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "128 96";
+   extent = "32 32";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "244 224 200 255";
+};
+//--- OBJECT WRITE END ---

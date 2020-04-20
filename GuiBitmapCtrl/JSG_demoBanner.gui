@@ -1,0 +1,41 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(JSG_demoBanner) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 0";
+   extent = "612 372";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/demobanner";
+   wrap = "1";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+
+   new GuiMLTextCtrl() {
+      profile = "MM_CenterProfile";
+      horizSizing = "center";
+      vertSizing = "bottom";
+      position = "195 170";
+      extent = "222 14";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+      text = "<just:center>Internet play not available in demo.";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+   };
+};
+//--- OBJECT WRITE END ---

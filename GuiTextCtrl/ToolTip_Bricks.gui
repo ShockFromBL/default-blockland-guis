@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(ToolTip_Bricks) {
+   profile = "HUDLeftTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "8 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

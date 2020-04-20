@@ -1,0 +1,23 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(HUD_PlantError) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "205 344";
+   extent = "255 76";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/PlantErrors/PlantError_Overlap";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+      hideSchedule = "8758";
+};
+//--- OBJECT WRITE END ---

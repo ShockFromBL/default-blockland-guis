@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(CMG_CreateButton) {
+   profile = "BlockButtonProfile";
+   horizSizing = "left";
+   vertSizing = "top";
+   position = "425 385";
+   extent = "91 38";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "CreateMiniGameGui.clickCreate();";
+   text = "Update >>";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/button2";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

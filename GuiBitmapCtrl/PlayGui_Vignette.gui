@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(PlayGui_Vignette) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   bitmap = "~/client/ui/vignette.png";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "1";
+   keepCached = "0";
+   mColor = "0 0 0 128";
+   mMultiply = "1";
+};
+//--- OBJECT WRITE END ---

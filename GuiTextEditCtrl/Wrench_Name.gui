@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextEditCtrl(Wrench_Name) {
+   profile = "GuiTextEditProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "76 33";
+   extent = "162 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "32";
+   historySize = "0";
+   password = "0";
+   tabComplete = "0";
+   sinkAllKeyEvents = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiConsoleTextCtrl(TextOverlayControl) {
+   profile = "GuiTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "5 5";
+   extent = "15 18";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   expression = "10";
+};
+//--- OBJECT WRITE END ---

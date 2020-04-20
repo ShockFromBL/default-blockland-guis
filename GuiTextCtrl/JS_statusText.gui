@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(JS_statusText) {
+   profile = "GuiProgressTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "116 19";
+   extent = "205 20";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

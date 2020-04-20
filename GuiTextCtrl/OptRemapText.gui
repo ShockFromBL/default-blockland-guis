@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(OptRemapText) {
+   profile = "GuiCenterTextProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "85 46";
+   extent = "82 18";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Re-bind control...";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

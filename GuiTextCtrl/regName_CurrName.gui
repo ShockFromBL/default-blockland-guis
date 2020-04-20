@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(regName_CurrName) {
+   profile = "GuiTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "93 35";
+   extent = "50 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Blockhead";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

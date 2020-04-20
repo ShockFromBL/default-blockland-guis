@@ -1,0 +1,13 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiConsole(testArrayCtrl) {
+   profile = "GuiConsoleProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 -1892";
+   extent = "454 2244";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+};
+//--- OBJECT WRITE END ---

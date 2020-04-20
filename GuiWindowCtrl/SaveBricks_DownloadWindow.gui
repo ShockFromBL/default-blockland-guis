@@ -1,0 +1,42 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiWindowCtrl(SaveBricks_DownloadWindow) {
+   profile = "GuiWindowProfile";
+   horizSizing = "center";
+   vertSizing = "center";
+   position = "161 180";
+   extent = "318 120";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   text = "Save Data Download";
+   maxLength = "255";
+   resizeWidth = "0";
+   resizeHeight = "0";
+   canMove = "1";
+   canClose = "1";
+   canMinimize = "0";
+   canMaximize = "0";
+   minSize = "50 50";
+   closeCommand = "SaveBricks_DownloadWindowClose();";
+
+   new GuiMLTextCtrl(SaveBricks_DownloadText) {
+      profile = "GuiMLTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "10 32";
+      extent = "297 28";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "Getting BLAH from server... \n12315";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+   };
+};
+//--- OBJECT WRITE END ---

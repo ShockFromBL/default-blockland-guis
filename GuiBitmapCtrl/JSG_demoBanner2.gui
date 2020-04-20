@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(JSG_demoBanner2) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "top";
+   position = "506 433";
+   extent = "106 45";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/demobanner";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+};
+//--- OBJECT WRITE END ---

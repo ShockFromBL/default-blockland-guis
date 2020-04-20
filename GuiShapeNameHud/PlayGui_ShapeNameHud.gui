@@ -1,0 +1,33 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiShapeNameHud(PlayGui_ShapeNameHud) {
+   profile = "BlockChatTextProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   fillColor = "0.250000 0.250000 0.250000 0.000000";
+   frameColor = "0.972500 0.800000 0.000000 0.000000";
+   textColor = "1.000000 1.000000 0.909000 1.000000";
+   showFill = "0";
+   showFrame = "0";
+   verticalOffset = "0.85";
+   distanceFade = "0.1";
+
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "216 349";
+      extent = "64 64";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "255 255 255 255";
+   };
+};
+//--- OBJECT WRITE END ---

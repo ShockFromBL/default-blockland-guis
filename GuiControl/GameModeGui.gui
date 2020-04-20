@@ -1,0 +1,157 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(GameModeGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "0 0";
+      extent = "640 480";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "0 0 0 128";
+   };
+   new GuiSwatchCtrl(GameModeGui_LongDescriptionBG) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "0 0";
+      extent = "640 480";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "0 0 0 110";
+   };
+   new GuiMLTextCtrl(GameModeGui_LongDescription) {
+      profile = "GuiMLTextProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "160 0";
+      extent = "480 276";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "<font:impact:27><color:FFFFFF>Long Description";
+      maxBitmapHeight = "-1";
+      selectable = "0";
+      autoResize = "1";
+   };
+   new GuiScrollCtrl(GameModeGui_Scroll) {
+      profile = "ImpactScrollProfile";
+      horizSizing = "relative";
+      vertSizing = "height";
+      position = "160 276";
+      extent = "480 204";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      willFirstRespond = "0";
+      hScrollBar = "alwaysOff";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+      rowHeight = "40";
+      columnWidth = "30";
+
+      new GuiSwatchCtrl(GameModeGui_Box) {
+         profile = "GuiDefaultProfile";
+         horizSizing = "width";
+         vertSizing = "bottom";
+         position = "0 0";
+         extent = "469 277";
+         minExtent = "8 2";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         color = "0 0 0 0";
+      };
+   };
+   new GuiSwatchCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "relative";
+      vertSizing = "height";
+      position = "0 0";
+      extent = "160 480";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "0 0 0 128";
+   };
+   new GuiTextCtrl() {
+      profile = "ImpactTextProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "0 0";
+      extent = "160 34";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Game Mode ";
+      maxLength = "255";
+   };
+   new GuiBitmapButtonCtrl() {
+      profile = "ImpactBackButtonProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "0 446";
+      extent = "160 34";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "GameModeGui.clickBack();";
+      accelerator = "escape";
+      text = " << BACK";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "~/client/ui/btnBlank";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      mKeepCached = "0";
+      mColor = "255 255 255 255";
+   };
+   new GuiBitmapButtonCtrl(GameModeGui_SelectButton) {
+      profile = "ImpactForwardButtonProfile";
+      horizSizing = "relative";
+      vertSizing = "relative";
+      position = "480 446";
+      extent = "160 34";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "GameModeGui.clickSelect();";
+      text = "SELECT >> ";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "~/client/ui/btnBlank";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      mKeepCached = "0";
+      mColor = "255 255 255 255";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(Wrench_EmitterDir2) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "130 110";
+   extent = "27 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "N";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

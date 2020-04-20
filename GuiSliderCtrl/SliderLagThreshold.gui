@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(SliderLagThreshold) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "122 54";
+   extent = "331 20";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "value";
+   altCommand = "UpdateLagThreshold();";
+   range = "200.000000 600.000000";
+   ticks = "10";
+   value = "400";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

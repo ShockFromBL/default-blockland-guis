@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(JS_serverList) {
+   profile = "ServerListProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "606 8";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   enumerate = "0";
+   resizeCell = "1";
+   columns = "0 34 65 340 385 404 415 445 510";
+   fitParentWidth = "1";
+   clipColumnText = "1";
+      sortedBy = "0";
+      sortedNumerical = "0";
+      noDuplicates = "false";
+      sortedAsc = "1";
+};
+//--- OBJECT WRITE END ---

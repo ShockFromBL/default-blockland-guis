@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(CustomGameGui_SelectButton) {
+   profile = "ImpactForwardButtonProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "480 446";
+   extent = "160 34";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "CustomGameGui.clickSelect();";
+   text = "SELECT >> ";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/btnBlank";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

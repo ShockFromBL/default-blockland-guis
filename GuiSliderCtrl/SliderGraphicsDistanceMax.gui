@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(SliderGraphicsDistanceMax) {
+   profile = "GuiSliderProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "265 81";
+   extent = "310 30";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "value";
+   command = "optionsDlg.updateMaxViewDistance();";
+   altCommand = "optionsDlg.updateMaxViewDistance();";
+   range = "50.000000 1000.000000";
+   ticks = "32";
+   value = "1000";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(LOAD_MapName) {
+   profile = "LoadingMapNameProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "224 20";
+   extent = "192 43";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   text = "Map Name";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

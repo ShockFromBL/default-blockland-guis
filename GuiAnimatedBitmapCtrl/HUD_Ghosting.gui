@@ -1,0 +1,26 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiAnimatedBitmapCtrl(HUD_Ghosting) {
+   profile = "HUDBitmapProfile";
+   horizSizing = "center";
+   vertSizing = "relative";
+   position = "256 300";
+   extent = "128 128";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/Ghosting";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+   framesPerSecond = "15";
+   numFrames = "13";
+   skipFrames = "0";
+      hideSchedule = "919";
+};
+//--- OBJECT WRITE END ---

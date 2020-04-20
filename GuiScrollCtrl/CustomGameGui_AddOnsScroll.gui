@@ -1,0 +1,33 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiScrollCtrl(CustomGameGui_AddOnsScroll) {
+   profile = "ImpactScrollProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "160 40";
+   extent = "480 410";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   willFirstRespond = "0";
+   hScrollBar = "alwaysOff";
+   vScrollBar = "alwaysOn";
+   constantThumbHeight = "0";
+   childMargin = "0 0";
+   rowHeight = "40";
+   columnWidth = "30";
+
+   new GuiSwatchCtrl(CustomGameGui_AddOnsBox) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "width";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "459 474";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "0 0 0 0";
+   };
+};
+//--- OBJECT WRITE END ---

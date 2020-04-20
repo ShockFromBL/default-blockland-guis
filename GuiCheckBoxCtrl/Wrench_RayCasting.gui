@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(Wrench_RayCasting) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "14 240";
+   extent = "78 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Ray Casting";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

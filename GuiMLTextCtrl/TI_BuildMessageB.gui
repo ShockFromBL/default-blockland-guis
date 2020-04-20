@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(TI_BuildMessageB) {
+   profile = "GuiMLTextProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "13 93";
+   extent = "266 28";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   text = "If you accept this invitation, you be able to build on and paint each other\'s bricks.";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

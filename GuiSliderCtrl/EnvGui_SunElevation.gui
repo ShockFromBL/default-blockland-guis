@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_SunElevation) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 156";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::SunElevation";
+   altCommand = "envGui.updateVar(\"SunElevation\");";
+   range = "-10.000000 190.000000";
+   ticks = "10";
+   value = "48";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

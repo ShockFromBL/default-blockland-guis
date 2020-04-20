@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(Connecting_Text) {
+   profile = "GuiMLTextProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "11 33";
+   extent = "337 28";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   text = "Connecting to 12.234.13";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

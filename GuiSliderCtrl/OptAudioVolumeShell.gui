@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(OptAudioVolumeShell) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "108 78";
+   extent = "305 34";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "value";
+   altCommand = "OptAudioUpdateChannelVolume($GuiAudioType, OptAudioVolumeShell.value);";
+   range = "0.000000 1.000000";
+   ticks = "10";
+   value = "0.81017";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

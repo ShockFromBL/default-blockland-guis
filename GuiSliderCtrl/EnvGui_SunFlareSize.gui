@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_SunFlareSize) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 396";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::SunFlareSize";
+   altCommand = "envGui.updateVar(\"SunFlareSize\");";
+   range = "0.000000 5.000000";
+   ticks = "10";
+   value = "0";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

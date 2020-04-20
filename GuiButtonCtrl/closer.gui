@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiButtonCtrl(closer) {
+   profile = "GuiButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "-89 145";
+   extent = "140 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "canvas.popDialog(\"adminLoginGui\");";
+   accelerator = "escape";
+   text = "Button";
+   groupNum = "-1";
+   buttonType = "PushButton";
+};
+//--- OBJECT WRITE END ---

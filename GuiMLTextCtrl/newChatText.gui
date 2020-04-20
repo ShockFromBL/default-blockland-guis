@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(newChatText) {
+   profile = "BlockChatTextProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "2 20";
+   extent = "640 14";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "12";
+   allowColorChars = "1";
+   maxChars = "-1";
+   text = " ";
+   maxBitmapHeight = "-1";
+   selectable = "0";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

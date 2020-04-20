@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiObjectView(Avatar_Preview) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "295 36";
+   extent = "258 387";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   cameraZRot = "0";
+   forceFOV = "35";
+   lightDirection = "0.721277 0.57735 0.57735";
+   lightColor = "1.000000 1.000000 1.000000 1.000000";
+   ambientColor = "0.500000 0.500000 0.500000 1.000000";
+};
+//--- OBJECT WRITE END ---

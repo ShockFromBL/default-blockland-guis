@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiPopUpMenuCtrl(Filter_PingMenu) {
+   profile = "GuiPopUpMenuProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "88 132";
+   extent = "73 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+   maxPopupHeight = "200";
+};
+//--- OBJECT WRITE END ---

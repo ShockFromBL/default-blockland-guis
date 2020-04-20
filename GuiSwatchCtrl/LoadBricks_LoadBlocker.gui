@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(LoadBricks_LoadBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "top";
+   position = "492 421";
+   extent = "103 41";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

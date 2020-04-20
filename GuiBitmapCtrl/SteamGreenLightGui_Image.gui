@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(SteamGreenLightGui_Image) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "160 0";
+   extent = "480 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/greenlight-page-01.png";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "1";
+   alignTop = "1";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+};
+//--- OBJECT WRITE END ---

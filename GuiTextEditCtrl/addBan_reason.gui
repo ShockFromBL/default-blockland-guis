@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextEditCtrl(addBan_reason) {
+   profile = "GuiTextEditProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "56 63";
+   extent = "308 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "128";
+   historySize = "0";
+   password = "0";
+   tabComplete = "0";
+   sinkAllKeyEvents = "0";
+};
+//--- OBJECT WRITE END ---

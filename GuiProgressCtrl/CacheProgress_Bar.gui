@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiProgressCtrl(CacheProgress_Bar) {
+   profile = "GuiProgressProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "17 38";
+   extent = "207 37";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+      total = "2300";
+};
+//--- OBJECT WRITE END ---

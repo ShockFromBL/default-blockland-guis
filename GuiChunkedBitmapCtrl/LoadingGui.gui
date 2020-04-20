@@ -1,0 +1,120 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(LoadingGui) {
+   profile = "GuiContentProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   useVariable = "0";
+   tile = "0";
+      qLineCount = "0";
+
+   new GuiBitmapCtrl(LOAD_MapPicture) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "width";
+      vertSizing = "height";
+      position = "0 0";
+      extent = "640 480";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      bitmap = "~/client/ui/loadingBG";
+      wrap = "0";
+      lockAspectRatio = "1";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "1";
+      keepCached = "0";
+      mColor = "255 255 255 255";
+      mMultiply = "0";
+   };
+   new GuiMLTextCtrl(LOAD_MapDescription) {
+      profile = "MapDescriptionTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "17 62";
+      extent = "303 14";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "0";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "0";
+      maxChars = "-1";
+      text = "map description";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+   };
+   new GuiProgressCtrl(LoadingProgress) {
+      profile = "GuiProgressProfile";
+      horizSizing = "width";
+      vertSizing = "relative";
+      position = "22 420";
+      extent = "596 25";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+   };
+   new GuiProgressCtrl(LoadingSecondaryProgress) {
+      profile = "GuiSecondaryProgressProfile";
+      horizSizing = "width";
+      vertSizing = "relative";
+      position = "22 420";
+      extent = "596 25";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+
+      new GuiTextCtrl(LoadingProgressTxt) {
+         profile = "LoadingBarTextProfile";
+         horizSizing = "width";
+         vertSizing = "center";
+         position = "61 3";
+         extent = "474 18";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         text = "LOADING MISSION";
+         maxLength = "255";
+      };
+   };
+   new GuiButtonCtrl() {
+      profile = "GuiButtonProfile";
+      horizSizing = "right";
+      vertSizing = "top";
+      position = "-15 488";
+      extent = "65 25";
+      minExtent = "20 20";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "disconnect();";
+      accelerator = "escape";
+      text = "CANCEL";
+      groupNum = "-1";
+      buttonType = "PushButton";
+   };
+   new GuiTextCtrl(LOAD_MapName) {
+      profile = "LoadingMapNameProfile";
+      horizSizing = "center";
+      vertSizing = "bottom";
+      position = "224 20";
+      extent = "192 43";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "0";
+      clipToParent = "1";
+      text = "Map Name";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

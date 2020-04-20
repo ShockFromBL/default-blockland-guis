@@ -1,0 +1,28 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(EnvGui_LoadingOverlay) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "7 29";
+   extent = "346 363";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "200 200 200 200";
+
+   new GuiTextCtrl() {
+      profile = "GuiTextProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "154 172";
+      extent = "38 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Loading";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextEditCtrl(Avatar_Name) {
+   profile = "GuiTextEditProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "59 2";
+   extent = "141 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$pref::Player::LANName";
+   text = "Blockhead";
+   maxLength = "23";
+   historySize = "0";
+   password = "0";
+   tabComplete = "0";
+   sinkAllKeyEvents = "0";
+};
+//--- OBJECT WRITE END ---

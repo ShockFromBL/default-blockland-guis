@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(NPL_MiniGameInviteBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "389 195";
+   extent = "93 23";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

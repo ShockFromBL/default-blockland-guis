@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(LOAD_MapPicture) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   bitmap = "~/client/ui/loadingBG";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "1";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+};
+//--- OBJECT WRITE END ---

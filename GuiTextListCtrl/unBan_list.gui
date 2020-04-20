@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(unBan_list) {
+   profile = "GuiTextListProfile";
+   horizSizing = "left";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "473 48";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   enumerate = "0";
+   resizeCell = "0";
+   columns = "0 75 130 167 240 410";
+   fitParentWidth = "1";
+   clipColumnText = "1";
+};
+//--- OBJECT WRITE END ---

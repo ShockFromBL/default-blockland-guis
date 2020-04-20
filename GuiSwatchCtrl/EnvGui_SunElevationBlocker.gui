@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(EnvGui_SunElevationBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "13 155";
+   extent = "307 124";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

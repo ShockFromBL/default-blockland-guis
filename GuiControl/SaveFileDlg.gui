@@ -1,0 +1,147 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(SaveFileDlg) {
+   profile = "GuiDialogProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+
+   new GuiWindowCtrl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "131 77";
+      extent = "378 328";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Save File...";
+      maxLength = "255";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+      closeCommand = "Canvas.popDialog(SaveFileDlg);";
+
+      new GuiPopUpMenuCtrl(SA_directoryList) {
+         profile = "GuiPopUpMenuProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "68 30";
+         extent = "226 19";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         maxLength = "255";
+         maxPopupHeight = "200";
+      };
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "8 52";
+         extent = "286 248";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+         rowHeight = "40";
+         columnWidth = "30";
+            defaultLineHeight = "15";
+
+         new GuiTextListCtrl(SA_fileList) {
+            profile = "GuiTextArrayProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 1";
+            extent = "267 8";
+            minExtent = "8 8";
+            enabled = "1";
+            visible = "1";
+            clipToParent = "1";
+            altCommand = "doSACallback();";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+               noDuplicates = "false";
+         };
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "305 245";
+         extent = "60 20";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         command = "doSACallback();";
+         text = "Save";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "305 280";
+         extent = "60 20";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         command = "Canvas.popDialog(SaveFileDlg);";
+         accelerator = "escape";
+         text = "Cancel";
+         groupNum = "-1";
+         buttonType = "PushButton";
+      };
+      new GuiTextEditCtrl(SA_nameEdit) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "8 303";
+         extent = "286 18";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 31";
+         extent = "44 18";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         text = "Directory";
+         maxLength = "255";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

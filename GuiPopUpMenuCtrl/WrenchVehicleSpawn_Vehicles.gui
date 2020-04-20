@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiPopUpMenuCtrl(WrenchVehicleSpawn_Vehicles) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "86 70";
+   extent = "162 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+   maxPopupHeight = "200";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_WaterScrollY) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 666";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::WaterScrollY";
+   altCommand = "envGui.updateVar(\"WaterScrollY\");";
+   range = "-10.000000 10.000000";
+   ticks = "21";
+   value = "1";
+   snap = "1";
+};
+//--- OBJECT WRITE END ---

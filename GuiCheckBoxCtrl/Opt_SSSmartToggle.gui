@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(Opt_SSSmartToggle) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "31 135";
+   extent = "94 23";
+   minExtent = "8 8";
+   enabled = "0";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$pref::Input::UseSuperShiftSmartToggle";
+   text = " Smart Toggle";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

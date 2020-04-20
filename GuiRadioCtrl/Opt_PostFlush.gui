@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(Opt_PostFlush) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "32 237";
+   extent = "140 15";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   altCommand = "OptionsDlg.clickLatencyOption();";
+   text = "Post-Swap glFlush";
+   groupNum = "3";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

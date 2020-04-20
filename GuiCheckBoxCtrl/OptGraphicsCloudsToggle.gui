@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(OptGraphicsCloudsToggle) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "21 26";
+   extent = "137 25";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$pref::CloudsOn";
+   text = "Clouds";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

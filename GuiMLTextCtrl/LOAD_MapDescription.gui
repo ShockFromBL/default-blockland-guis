@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(LOAD_MapDescription) {
+   profile = "MapDescriptionTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "17 62";
+   extent = "303 14";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   text = "map description";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

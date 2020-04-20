@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(WrenchLock_Events) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "750 29";
+   extent = "42 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "WrenchEvents_ClickLock();";
+   text = "Copy";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

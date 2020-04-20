@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(wrenchBotLock_ItemDir) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "244 106";
+   extent = "42 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   text = "Copy";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

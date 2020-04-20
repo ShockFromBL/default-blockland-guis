@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(colorGui_option1) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "219 36";
+   extent = "60 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "ColorGui.setMode(1);";
+   text = "HSV";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

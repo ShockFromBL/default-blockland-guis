@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(Latency) {
+   profile = "NetGraphLatencyProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "436 184";
+   extent = "100 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Latency";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

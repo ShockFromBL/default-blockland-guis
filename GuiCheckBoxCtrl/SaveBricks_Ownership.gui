@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCheckBoxCtrl(SaveBricks_Ownership) {
+   profile = "GuiCheckBoxProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "144 281";
+   extent = "101 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$pref::SaveOwnership";
+   text = "Save Ownership";
+   groupNum = "-1";
+   buttonType = "ToggleButton";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(WrenchEvents_SendBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "top";
+   position = "690 541";
+   extent = "105 55";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

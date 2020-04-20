@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_VisibleDistance) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 426";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::VisibleDistance";
+   altCommand = "envGui.updateVar(\"VisibleDistance\");";
+   range = "20.000000 1000.000000";
+   ticks = "10";
+   value = "400";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(GameModeGui_LongDescription) {
+   profile = "GuiMLTextProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "160 0";
+   extent = "480 276";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   text = "<font:impact:27><color:FFFFFF>Long Description";
+   maxBitmapHeight = "-1";
+   selectable = "0";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

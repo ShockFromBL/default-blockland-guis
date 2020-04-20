@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(CacheProgress_Text) {
+   profile = "GuiProgressTextProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "18 46";
+   extent = "205 20";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Building Cache Database...";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

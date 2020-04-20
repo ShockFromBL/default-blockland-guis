@@ -1,0 +1,115 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiWindowCtrl(InspectTitle) {
+   profile = "BlockWindowProfile";
+   horizSizing = "relative";
+   vertSizing = "height";
+   position = "20 20";
+   extent = "200 400";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+   resizeWidth = "1";
+   resizeHeight = "1";
+   canMove = "1";
+   canClose = "1";
+   canMinimize = "1";
+   canMaximize = "1";
+   minSize = "50 50";
+   closeCommand = "Canvas.popDialog(InspectDlg);";
+      font = "12 244 Arial";
+      selectfillColor = "253";
+      opaque = "true";
+      fillColor = "250";
+
+   new GuiBitmapButtonCtrl() {
+      profile = "BlockButtonProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "7 26";
+      extent = "45 20";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "InspectApply();";
+      text = "APPLY";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "~/client/ui/button2";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      mKeepCached = "0";
+      mColor = "255 255 255 255";
+   };
+   new GuiTextCtrl() {
+      profile = "GuiTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "56 27";
+      extent = "30 18";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Name:";
+      maxLength = "255";
+         font = "12 244 Arial";
+   };
+   new GuiTextEditCtrl(InspectObjectName) {
+      profile = "GuiTextEditProfile";
+      horizSizing = "width";
+      vertSizing = "bottom";
+      position = "98 27";
+      extent = "72 18";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      maxLength = "255";
+      historySize = "0";
+      password = "0";
+      tabComplete = "0";
+      sinkAllKeyEvents = "0";
+   };
+   new GuiScrollCtrl() {
+      profile = "GuiScrollProfile";
+      horizSizing = "width";
+      vertSizing = "height";
+      position = "3 47";
+      extent = "192 348";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      willFirstRespond = "1";
+      hScrollBar = "alwaysOff";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+      rowHeight = "10";
+      columnWidth = "30";
+
+      new GuiInspector(InspectFields) {
+         profile = "GuiDefaultProfile";
+         horizSizing = "width";
+         vertSizing = "bottom";
+         position = "1 1";
+         extent = "184 8";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         editControlOffset = "5";
+         entryHeight = "16";
+         textExtent = "80";
+         entrySpacing = "2";
+         maxMenuExtent = "380";
+         useFieldGrouping = "1";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

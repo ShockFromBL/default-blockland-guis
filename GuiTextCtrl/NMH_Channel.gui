@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(NMH_Channel) {
+   profile = "BlockChatChannelSize4Profile";
+   horizSizing = "right";
+   vertSizing = "height";
+   position = "2 0";
+   extent = "190 40";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

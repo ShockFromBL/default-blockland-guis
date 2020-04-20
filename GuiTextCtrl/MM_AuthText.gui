@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(MM_AuthText) {
+   profile = "MM_CenterProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "18 5";
+   extent = "275 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Loading...";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

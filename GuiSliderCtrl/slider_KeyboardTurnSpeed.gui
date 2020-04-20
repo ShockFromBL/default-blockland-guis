@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(slider_KeyboardTurnSpeed) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "6 24";
+   extent = "331 34";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   range = "0.020000 1.000000";
+   ticks = "10";
+   value = "0.111589";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

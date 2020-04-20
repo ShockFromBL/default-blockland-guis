@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiInspector(InspectFields) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "184 8";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   editControlOffset = "5";
+   entryHeight = "16";
+   textExtent = "80";
+   entrySpacing = "2";
+   maxMenuExtent = "380";
+   useFieldGrouping = "1";
+};
+//--- OBJECT WRITE END ---

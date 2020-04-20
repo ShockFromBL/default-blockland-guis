@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(SliderGraphicsParticleFalloffDist) {
+   profile = "GuiSliderProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "85 79";
+   extent = "491 30";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "$thisControl.setValue( mFloor($thisControl.getValue()) );";
+   range = "5.000000 100.000000";
+   ticks = "18";
+   value = "35";
+   snap = "1";
+};
+//--- OBJECT WRITE END ---

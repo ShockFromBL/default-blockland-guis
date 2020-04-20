@@ -1,0 +1,23 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(HUD_SuperShift) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "451 683";
+   extent = "184 37";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/supershift";
+   wrap = "0";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 255";
+   mMultiply = "0";
+      hideSchedule = "2794";
+};
+//--- OBJECT WRITE END ---

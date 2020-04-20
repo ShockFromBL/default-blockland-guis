@@ -1,0 +1,103 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(HUD_BrickNameBG) {
+   profile = "HUDBrickNameProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "640 701";
+   extent = "8 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "0 0 128 0";
+
+   new GuiBitmapCtrl() {
+      profile = "HUDBitmapProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "10 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      bitmap = "~/client/ui/BlueHudLeftCorner";
+      wrap = "0";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      keepCached = "0";
+      mColor = "255 255 255 255";
+      mMultiply = "0";
+   };
+   new GuiBitmapCtrl() {
+      profile = "HUDBitmapProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "-10 0";
+      extent = "10 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      bitmap = "~/client/ui/BlueHudRightCorner";
+      wrap = "0";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      keepCached = "0";
+      mColor = "255 255 255 255";
+      mMultiply = "0";
+   };
+   new GuiSwatchCtrl() {
+      profile = "HUDBrickNameProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "10 0";
+      extent = "8 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "0 0 128 128";
+   };
+   new GuiTextCtrl(HUD_BrickName) {
+      profile = "HUDBrickNameProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "8 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(ToolTip_BSD) {
+      profile = "HUDRightTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "8 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(ToolTip_Bricks) {
+      profile = "HUDLeftTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "8 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

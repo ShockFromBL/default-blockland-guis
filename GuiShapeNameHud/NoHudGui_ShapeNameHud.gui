@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiShapeNameHud(NoHudGui_ShapeNameHud) {
+   profile = "BlockChatTextProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   fillColor = "0.250000 0.250000 0.250000 0.000000";
+   frameColor = "0.000000 1.000000 0.000000 0.000000";
+   textColor = "1.000000 1.000000 1.000000 1.000000";
+   showFill = "1";
+   showFrame = "1";
+   verticalOffset = "0.85";
+   distanceFade = "0.1";
+};
+//--- OBJECT WRITE END ---

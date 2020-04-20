@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(ServerSettingsGui_Internet) {
+   profile = "ImpactRadioProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "450 70";
+   extent = "128 34";
+   minExtent = "8 2";
+   enabled = "0";
+   visible = "1";
+   clipToParent = "1";
+   command = "ServerSettingsGui.clickInternet();";
+   text = "Internet";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

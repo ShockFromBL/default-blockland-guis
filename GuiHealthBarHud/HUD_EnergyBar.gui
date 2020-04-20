@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiHealthBarHud(HUD_EnergyBar) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "338 6";
+   extent = "234 9";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   fillColor = "0.000000 0.000000 0.000000 0.500000";
+   frameColor = "0.000000 0.000000 0.000000 1.000000";
+   damageFillColor = "0.000000 0.000000 1.000000 1.000000";
+   pulseRate = "0";
+   pulseThreshold = "0.3";
+   flipped = "0";
+   showFill = "1";
+   showFrame = "1";
+   displayEnergy = "1";
+};
+//--- OBJECT WRITE END ---

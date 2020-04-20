@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_SunAzimuth) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 130";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::SunAzimuth";
+   altCommand = "envGui.updateVar(\"SunAzimuth\");";
+   range = "0.000000 360.000000";
+   ticks = "10";
+   value = "100";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(adminGui_banBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "209 72";
+   extent = "124 41";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

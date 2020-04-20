@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(SliderGraphicsAnisotropy) {
+   profile = "GuiScrollProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "265 49";
+   extent = "310 30";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "value";
+   range = "0.000000 1.000000";
+   ticks = "32";
+   value = "0";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

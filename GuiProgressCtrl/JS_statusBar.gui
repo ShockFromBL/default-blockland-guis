@@ -1,0 +1,13 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiProgressCtrl(JS_statusBar) {
+   profile = "GuiProgressProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "115 11";
+   extent = "207 37";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+};
+//--- OBJECT WRITE END ---

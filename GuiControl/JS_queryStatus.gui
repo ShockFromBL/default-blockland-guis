@@ -1,0 +1,60 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(JS_queryStatus) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "center";
+   vertSizing = "center";
+   position = "151 209";
+   extent = "338 61";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+
+   new GuiBitmapButtonCtrl(JS_cancelQuery) {
+      profile = "BlockButtonProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "15 12";
+      extent = "90 36";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "joinServerGui.cancel();";
+      text = "Cancel";
+      groupNum = "-1";
+      buttonType = "PushButton";
+      bitmap = "~/client/ui/button2";
+      lockAspectRatio = "0";
+      alignLeft = "0";
+      alignTop = "0";
+      overflowImage = "0";
+      mKeepCached = "0";
+      mColor = "255 255 255 255";
+         wrap = "0";
+   };
+   new GuiProgressCtrl(JS_statusBar) {
+      profile = "GuiProgressProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "115 11";
+      extent = "207 37";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+   };
+   new GuiTextCtrl(JS_statusText) {
+      profile = "GuiProgressTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "116 19";
+      extent = "205 20";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

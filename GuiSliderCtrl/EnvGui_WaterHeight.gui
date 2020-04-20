@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_WaterHeight) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 576";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::WaterHeight";
+   altCommand = "envGui.updateVar(\"WaterHeight\");";
+   range = "0.000000 100.000000";
+   ticks = "10";
+   value = "8.65103";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,83 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(ConsoleDlg) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "1280 720";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+
+   new GuiWindowCtrl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "640 370";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Console";
+      maxLength = "255";
+      resizeWidth = "1";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "width";
+         vertSizing = "height";
+         position = "0 0";
+         extent = "640 353";
+         minExtent = "8 2";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+         rowHeight = "40";
+         columnWidth = "30";
+
+         new GuiConsole(testArrayCtrl) {
+            profile = "GuiConsoleProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 -1892";
+            extent = "454 2244";
+            minExtent = "8 2";
+            enabled = "1";
+            visible = "1";
+            clipToParent = "1";
+         };
+      };
+      new GuiConsoleEditCtrl(ConsoleEntry) {
+         profile = "GuiTextEditProfile";
+         horizSizing = "width";
+         vertSizing = "top";
+         position = "0 352";
+         extent = "640 18";
+         minExtent = "8 2";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         altCommand = "ConsoleEntry::eval();";
+         maxLength = "255";
+         historySize = "20";
+         password = "0";
+         tabComplete = "0";
+         sinkAllKeyEvents = "1";
+         useSiblingScroller = "1";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

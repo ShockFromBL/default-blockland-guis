@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiPopUpMenuCtrl(OptGraphicsHzMenu) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "107 109";
+   extent = "74 23";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+   maxPopupHeight = "200";
+};
+//--- OBJECT WRITE END ---

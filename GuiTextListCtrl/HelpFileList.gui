@@ -1,0 +1,29 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(HelpFileList) {
+   profile = "GuiTextListProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "130 32";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   enumerate = "0";
+   resizeCell = "1";
+   columns = "0";
+   fitParentWidth = "1";
+   clipColumnText = "0";
+      fileName5 = "base/help/4. Mission Editor Overview.hfl";
+      fileName6 = "base/help/3. Gui Editor.hfl";
+      fileName8 = "base/help/10. Terrain Texture Painter.hfl";
+      fileName9 = "base/client/help/1. Credits.hfl";
+      fileName3 = "base/help/6. Mission Area Editor.hfl";
+      fileName0 = "base/help/1. Controls.hfl";
+      entryCount = "2";
+      fileName1 = "base/help/0. Credits.hfl";
+      fileName2 = "base/help/7. Terrain Editor.hfl";
+      fileName7 = "base/help/2. License.hfl";
+      fileName4 = "base/help/5. World Editor.hfl";
+};
+//--- OBJECT WRITE END ---

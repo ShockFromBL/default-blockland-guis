@@ -1,0 +1,25 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(LoadBricks_LoadButton) {
+   profile = "BlockButtonProfile";
+   horizSizing = "left";
+   vertSizing = "top";
+   position = "541 424";
+   extent = "89 36";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "LoadBricks_ClickLoadButton();";
+   accelerator = "enter";
+   text = "Load";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/button2";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

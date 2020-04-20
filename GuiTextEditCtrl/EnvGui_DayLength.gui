@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextEditCtrl(EnvGui_DayLength) {
+   profile = "GuiTextEditProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "111 42";
+   extent = "48 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::DayLength";
+   command = "envGui.updateDayLength();";
+   altCommand = "envGui.updateDayLength();";
+   text = "0";
+   maxLength = "255";
+   historySize = "0";
+   password = "0";
+   tabComplete = "0";
+   sinkAllKeyEvents = "0";
+};
+//--- OBJECT WRITE END ---

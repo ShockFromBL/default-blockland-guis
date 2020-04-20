@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(EnvGui_SkyButton) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "110 20";
+   extent = "64 64";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "envGui.clickSkyButton();";
+   text = " ";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/btndecalA";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

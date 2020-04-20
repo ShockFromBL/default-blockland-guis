@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(ColorGui_Slider0) {
+   profile = "GuiSliderProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "136 65";
+   extent = "224 31";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   altCommand = "ColorGui.update();";
+   range = "0.000000 1.000000";
+   ticks = "10";
+   value = "0";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(MM_AuthKeyButton) {
+   profile = "BlockButtonProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "256 5";
+   extent = "51 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "keyGui::changePrompt();";
+   text = "Key";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/button2";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(GameModeGui_Box) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "469 277";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "0 0 0 0";
+};
+//--- OBJECT WRITE END ---

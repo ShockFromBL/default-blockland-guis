@@ -1,0 +1,13 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiProgressCtrl(LoadingProgress) {
+   profile = "GuiProgressProfile";
+   horizSizing = "width";
+   vertSizing = "relative";
+   position = "22 420";
+   extent = "596 25";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+};
+//--- OBJECT WRITE END ---

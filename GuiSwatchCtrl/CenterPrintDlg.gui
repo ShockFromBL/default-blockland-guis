@@ -1,0 +1,33 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(CenterPrintDlg) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "center";
+   vertSizing = "center";
+   position = "10 138";
+   extent = "619 203";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "0 0 0 0";
+
+   new GuiMLTextCtrl(CenterPrintText) {
+      profile = "BlockChatTextSize4Profile";
+      horizSizing = "right";
+      vertSizing = "center";
+      position = "0 0";
+      extent = "619 24";
+      minExtent = "28 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+      text = "<just:center>Center Print";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+   };
+};
+//--- OBJECT WRITE END ---

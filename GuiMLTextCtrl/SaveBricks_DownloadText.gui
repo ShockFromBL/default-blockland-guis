@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(SaveBricks_DownloadText) {
+   profile = "GuiMLTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "10 32";
+   extent = "297 28";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   text = "Getting BLAH from server... \n12315";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

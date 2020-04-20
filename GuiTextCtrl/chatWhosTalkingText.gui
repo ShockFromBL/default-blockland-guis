@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(chatWhosTalkingText) {
+   profile = "MM_LeftProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "-1 0";
+   extent = "630 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

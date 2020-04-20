@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiPopUpMenuCtrl(EnvGui_DayCycleMenu) {
+   profile = "GuiPopUpMenuProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "111 101";
+   extent = "199 19";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "envGui.ClickDayCycleMenu();";
+   maxLength = "255";
+   maxPopupHeight = "200";
+};
+//--- OBJECT WRITE END ---

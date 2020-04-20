@@ -1,0 +1,45 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControlProfile(BlockChatTextSize8Profile) {
+   tab = "0";
+   canKeyFocus = "0";
+   mouseOverSelected = "0";
+   modal = "1";
+   opaque = "0";
+   fillColor = "200 200 200 255";
+   fillColorHL = "200 200 200 255";
+   fillColorNA = "200 200 200 255";
+   border = "0";
+   borderThickness = "1";
+   borderColor = "0 0 0 255";
+   borderColorHL = "128 128 128 255";
+   borderColorNA = "64 64 64 255";
+   fontType = "Palatino Linotype";
+   fontSize = "32";
+   fontColors[0] = "255 0 64 255";
+   fontColors[1] = "64 64 255 255";
+   fontColors[2] = "0 255 0 255";
+   fontColors[3] = "255 255 0 255";
+   fontColors[4] = "0 255 255 255";
+   fontColors[5] = "255 0 255 255";
+   fontColors[6] = "255 255 255 255";
+   fontColors[7] = "96 96 96 255";
+   fontColors[8] = "0 0 0 0";
+   fontColors[9] = "0 0 0 0";
+   fontColor = "255 0 64 255";
+   fontColorHL = "64 64 255 255";
+   fontColorNA = "0 255 0 255";
+   fontColorSEL = "255 255 0 255";
+   fontColorLink = "0 255 255 255";
+   fontColorLinkHL = "255 0 255 255";
+   doFontOutline = "1";
+   fontOutlineColor = "0 0 0 255";
+   justify = "left";
+   textOffset = "3 0";
+   autoSizeWidth = "0";
+   autoSizeHeight = "0";
+   returnTab = "0";
+   numbersOnly = "0";
+   cursorColor = "0 0 0 255";
+   bitmap = "~/client/ui/BlockWindow";
+};
+//--- OBJECT WRITE END ---

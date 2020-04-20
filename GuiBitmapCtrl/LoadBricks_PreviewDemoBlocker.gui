@@ -1,0 +1,23 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapCtrl(LoadBricks_PreviewDemoBlocker) {
+   profile = "BlockTextEditProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "335 37";
+   extent = "294 220";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   bitmap = "~/client/ui/demobanner";
+   wrap = "0";
+   lockAspectRatio = "1";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   keepCached = "0";
+   mColor = "255 255 255 128";
+   mMultiply = "0";
+      color = "255 255 255 200";
+};
+//--- OBJECT WRITE END ---

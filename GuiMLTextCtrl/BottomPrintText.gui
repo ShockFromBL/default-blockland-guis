@@ -1,0 +1,21 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(BottomPrintText) {
+   profile = "BlockChatTextSize4Profile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "10 0";
+   extent = "594 24";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "1";
+   maxChars = "-1";
+   text = "Bottom Print";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+      maxLength = "255";
+};
+//--- OBJECT WRITE END ---

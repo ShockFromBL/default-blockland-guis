@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(loadFileList) {
+   profile = "GuiTextArrayProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "273 8";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   altCommand = "eval($loadFileCommand); Canvas.popDialog(LoadFileDlg);";
+   enumerate = "0";
+   resizeCell = "1";
+   columns = "0";
+   fitParentWidth = "1";
+   clipColumnText = "0";
+      noDuplicates = "false";
+};
+//--- OBJECT WRITE END ---

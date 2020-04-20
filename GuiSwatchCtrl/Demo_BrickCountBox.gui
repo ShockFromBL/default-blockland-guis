@@ -1,0 +1,51 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(Demo_BrickCountBox) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "center";
+   vertSizing = "top";
+   position = "208 353";
+   extent = "224 36";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "224 13 37 3";
+
+   new GuiMLTextCtrl(Demo_BrickCountLabel) {
+      profile = "HUDChatTextEditSize10Profile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "4 2";
+      extent = "168 36";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+      text = "<just:right>Demo Bricks: ";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+   };
+   new GuiMLTextCtrl(Demo_BrickCount) {
+      profile = "HUDChatTextEditSize10Profile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "171 2";
+      extent = "64 36";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+      text = "150";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+   };
+};
+//--- OBJECT WRITE END ---

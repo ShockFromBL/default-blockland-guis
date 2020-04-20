@@ -1,0 +1,25 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(EM_SaveBricks) {
+   profile = "BlockButtonProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "7 233";
+   extent = "207 36";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "escapeMenu::clickSaveBricks();";
+   text = "Save Bricks";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/button1";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "50 130 255 255";
+      wrap = "0";
+};
+//--- OBJECT WRITE END ---

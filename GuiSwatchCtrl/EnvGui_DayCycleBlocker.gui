@@ -1,0 +1,14 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(EnvGui_DayCycleBlocker) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "14 37";
+   extent = "307 87";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   color = "200 200 200 200";
+};
+//--- OBJECT WRITE END ---

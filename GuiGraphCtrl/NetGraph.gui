@@ -1,0 +1,13 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiGraphCtrl(NetGraph) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "432 5";
+   extent = "200 200";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+};
+//--- OBJECT WRITE END ---

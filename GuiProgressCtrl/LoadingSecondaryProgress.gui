@@ -1,0 +1,27 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiProgressCtrl(LoadingSecondaryProgress) {
+   profile = "GuiSecondaryProgressProfile";
+   horizSizing = "width";
+   vertSizing = "relative";
+   position = "22 420";
+   extent = "596 25";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+
+   new GuiTextCtrl(LoadingProgressTxt) {
+      profile = "LoadingBarTextProfile";
+      horizSizing = "width";
+      vertSizing = "center";
+      position = "61 3";
+      extent = "474 18";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "LOADING MISSION";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

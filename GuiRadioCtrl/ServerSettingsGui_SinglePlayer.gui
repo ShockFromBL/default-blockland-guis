@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(ServerSettingsGui_SinglePlayer) {
+   profile = "ImpactRadioProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "170 70";
+   extent = "168 34";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "ServerSettingsGui.clickSinglePlayer();";
+   text = "Single Player";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

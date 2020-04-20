@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(RecordingsDlgList) {
+   profile = "GuiTextArrayProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "464 20";
+   minExtent = "8 20";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   enumerate = "0";
+   resizeCell = "1";
+   columns = "0";
+   fitParentWidth = "1";
+   clipColumnText = "0";
+      noDuplicates = "false";
+};
+//--- OBJECT WRITE END ---

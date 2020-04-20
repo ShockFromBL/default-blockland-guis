@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiPopUpMenuCtrl(wrenchBot_Lights) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "76 60";
+   extent = "162 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   maxLength = "255";
+   maxPopupHeight = "200";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(SliderRateToServer) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "122 105";
+   extent = "331 20";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "value";
+   altCommand = "UpdateRateToServer();";
+   range = "8.000000 32.000000";
+   ticks = "24";
+   value = "32";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

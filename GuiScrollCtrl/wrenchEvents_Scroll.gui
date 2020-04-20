@@ -1,0 +1,33 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiScrollCtrl(wrenchEvents_Scroll) {
+   profile = "ColorScrollProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "11 51";
+   extent = "780 485";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   willFirstRespond = "1";
+   hScrollBar = "dynamic";
+   vScrollBar = "alwaysOn";
+   constantThumbHeight = "0";
+   childMargin = "0 0";
+   rowHeight = "40";
+   columnWidth = "30";
+
+   new GuiSwatchCtrl(WrenchEvents_Box) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "width";
+      vertSizing = "bottom";
+      position = "0 0";
+      extent = "768 300";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "200 200 200 64";
+   };
+};
+//--- OBJECT WRITE END ---

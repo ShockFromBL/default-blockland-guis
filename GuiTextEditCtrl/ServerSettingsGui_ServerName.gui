@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextEditCtrl(ServerSettingsGui_ServerName) {
+   profile = "ImpactEditProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "170 110";
+   extent = "460 34";
+   minExtent = "8 2";
+   enabled = "0";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$ServerSettingsGui::ServerName";
+   maxLength = "255";
+   historySize = "0";
+   password = "0";
+   tabComplete = "0";
+   sinkAllKeyEvents = "0";
+};
+//--- OBJECT WRITE END ---

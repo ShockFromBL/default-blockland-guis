@@ -1,0 +1,47 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(bottomPrintDlg) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "center";
+   vertSizing = "top";
+   position = "10 341";
+   extent = "619 145";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "0 0 0 0";
+      removePrint = "43";
+
+   new GuiSwatchCtrl(bottomPrintBar) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "0 13";
+      extent = "619 13";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      color = "0 0 0 128";
+   };
+   new GuiMLTextCtrl(BottomPrintText) {
+      profile = "BlockChatTextSize4Profile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "10 0";
+      extent = "594 24";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      lineSpacing = "2";
+      allowColorChars = "1";
+      maxChars = "-1";
+      text = "Bottom Print";
+      maxBitmapHeight = "-1";
+      selectable = "1";
+      autoResize = "1";
+         maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

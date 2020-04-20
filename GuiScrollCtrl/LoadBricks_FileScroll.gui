@@ -1,0 +1,41 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiScrollCtrl(LoadBricks_FileScroll) {
+   profile = "GuiScrollProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "15 63";
+   extent = "310 404";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   willFirstRespond = "1";
+   hScrollBar = "dynamic";
+   vScrollBar = "alwaysOn";
+   constantThumbHeight = "0";
+   childMargin = "0 0";
+   rowHeight = "80";
+   columnWidth = "30";
+
+   new GuiTextListCtrl(LoadBricks_FileList) {
+      profile = "BlockListProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "1 1";
+      extent = "293 7160";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "LoadBricks_FileClick();";
+      enumerate = "0";
+      resizeCell = "1";
+      columns = "0 170";
+      fitParentWidth = "1";
+      clipColumnText = "0";
+         sortedBy = "2";
+         sortedNumerical = "0";
+         sortedAsc = "0";
+   };
+};
+//--- OBJECT WRITE END ---

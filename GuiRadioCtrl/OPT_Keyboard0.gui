@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(OPT_Keyboard0) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "24 203";
+   extent = "142 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = " Standard Keyboard";
+   groupNum = "2";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

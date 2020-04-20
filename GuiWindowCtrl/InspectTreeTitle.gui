@@ -1,0 +1,56 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiWindowCtrl(InspectTreeTitle) {
+   profile = "BlockWindowProfile";
+   horizSizing = "relative";
+   vertSizing = "height";
+   position = "230 20";
+   extent = "200 400";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "TREE VIEW";
+   maxLength = "255";
+   resizeWidth = "1";
+   resizeHeight = "1";
+   canMove = "1";
+   canClose = "1";
+   canMinimize = "1";
+   canMaximize = "1";
+   minSize = "50 50";
+   closeCommand = "Canvas.popDialog(InspectDlg);";
+
+   new GuiScrollCtrl() {
+      profile = "GuiScrollProfile";
+      horizSizing = "width";
+      vertSizing = "height";
+      position = "3 27";
+      extent = "192 368";
+      minExtent = "8 8";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      willFirstRespond = "1";
+      hScrollBar = "dynamic";
+      vScrollBar = "alwaysOn";
+      constantThumbHeight = "0";
+      childMargin = "0 0";
+      rowHeight = "10";
+      columnWidth = "30";
+
+      new GuiTreeViewCtrl(InspectTreeView) {
+         profile = "GuiTreeViewProfile";
+         horizSizing = "width";
+         vertSizing = "bottom";
+         position = "1 1";
+         extent = "72 64";
+         minExtent = "8 8";
+         enabled = "1";
+         visible = "1";
+         clipToParent = "1";
+         allowMultipleSelections = "0";
+         recurseSets = "0";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

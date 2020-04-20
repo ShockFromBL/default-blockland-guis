@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_GroundScrollX) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 726";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::GroundScrollX";
+   altCommand = "envGui.updateVar(\"GroundScrollX\");";
+   range = "-10.000000 10.000000";
+   ticks = "21";
+   value = "0";
+   snap = "1";
+};
+//--- OBJECT WRITE END ---

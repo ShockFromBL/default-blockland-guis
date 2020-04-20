@@ -1,0 +1,22 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(JMG_List) {
+   profile = "MiniGameListProfile";
+   horizSizing = "left";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "508 2";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "JoinMiniGameGui.clickList();";
+   enumerate = "0";
+   resizeCell = "0";
+   columns = "0 102 165 493";
+   fitParentWidth = "1";
+   clipColumnText = "1";
+      sortedBy = "0";
+      sortedNumerical = "0";
+      sortedAsc = "0";
+};
+//--- OBJECT WRITE END ---

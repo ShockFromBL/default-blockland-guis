@@ -1,0 +1,25 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(NPL_BLIDButton) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "254 33";
+   extent = "57 19";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "NewPlayerListGui.sortNumList(3);";
+   text = "BL_ID";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/button1";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "1";
+   mColor = "255 255 255 255";
+      wrap = "0";
+};
+//--- OBJECT WRITE END ---

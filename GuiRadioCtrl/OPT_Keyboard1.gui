@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(OPT_Keyboard1) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "24 223";
+   extent = "170 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = " Laptop Keyboard (No NumPad)";
+   groupNum = "2";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

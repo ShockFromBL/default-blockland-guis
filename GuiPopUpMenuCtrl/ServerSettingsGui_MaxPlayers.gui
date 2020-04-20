@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiPopUpMenuCtrl(ServerSettingsGui_MaxPlayers) {
+   profile = "ImpactPopUpProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "170 150";
+   extent = "55 34";
+   minExtent = "8 2";
+   enabled = "0";
+   visible = "1";
+   clipToParent = "1";
+   text = "32";
+   maxLength = "255";
+   maxPopupHeight = "200";
+};
+//--- OBJECT WRITE END ---

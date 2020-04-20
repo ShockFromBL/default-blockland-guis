@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(TI_FullMessageB) {
+   profile = "GuiMLTextProfile";
+   horizSizing = "center";
+   vertSizing = "bottom";
+   position = "13 93";
+   extent = "266 56";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "0";
+   maxChars = "-1";
+   text = "If you accept this invitation, you be able to build on, paint, and DESTROY each other\'s bricks.\n\nConsider this carefully.";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

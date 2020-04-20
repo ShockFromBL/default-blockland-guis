@@ -1,0 +1,38 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiScrollCtrl(NPL_Scroll) {
+   profile = "ColorScrollProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "11 54";
+   extent = "369 267";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   willFirstRespond = "1";
+   hScrollBar = "alwaysOff";
+   vScrollBar = "alwaysOn";
+   constantThumbHeight = "0";
+   childMargin = "0 0";
+   rowHeight = "40";
+   columnWidth = "30";
+
+   new GuiTextListCtrl(NPL_List) {
+      profile = "PlayerListProfile";
+      horizSizing = "left";
+      vertSizing = "height";
+      position = "0 0";
+      extent = "357 140";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      command = "NewPlayerListGui.clickList();";
+      enumerate = "0";
+      resizeCell = "0";
+      columns = "0 33 190 245 310";
+      fitParentWidth = "1";
+      clipColumnText = "1";
+   };
+};
+//--- OBJECT WRITE END ---

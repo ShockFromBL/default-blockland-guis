@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(OPT_ShaderQuality6) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "115 112";
+   extent = "71 15";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "optionsDlg.setShaderQuality(6);";
+   text = "Max";
+   groupNum = "2";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

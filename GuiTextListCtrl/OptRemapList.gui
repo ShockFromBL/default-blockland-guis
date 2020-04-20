@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextListCtrl(OptRemapList) {
+   profile = "GuiTextListProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "1 1";
+   extent = "241 1712";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   altCommand = "OptRemapList.doRemap();";
+   enumerate = "0";
+   resizeCell = "1";
+   columns = "0 160";
+   fitParentWidth = "1";
+   clipColumnText = "0";
+};
+//--- OBJECT WRITE END ---

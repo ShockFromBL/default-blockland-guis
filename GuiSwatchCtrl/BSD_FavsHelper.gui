@@ -1,0 +1,28 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSwatchCtrl(BSD_FavsHelper) {
+   profile = "BlockWindowProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "192 25";
+   extent = "269 27";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   color = "78 83 235 240";
+
+   new GuiTextCtrl() {
+      profile = "BlockWindowProfile";
+      horizSizing = "center";
+      vertSizing = "bottom";
+      position = "22 3";
+      extent = "225 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "^^^ Click a number to set favorites ^^^";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(EnvGui_FogDistance) {
+   profile = "GuiSliderProfile";
+   horizSizing = "width";
+   vertSizing = "bottom";
+   position = "108 456";
+   extent = "205 29";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   variable = "$EnvGui::FogDistance";
+   altCommand = "envGui.updateVar(\"FogDistance\");";
+   range = "0.000000 1000.000000";
+   ticks = "10";
+   value = "0";
+   snap = "0";
+};
+//--- OBJECT WRITE END ---

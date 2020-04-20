@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(MM_UnlockButton) {
+   profile = "MainMenuButtonProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 480";
+   extent = "448 60";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   command = "mainMenuGui.clickUnlock();";
+   text = " ";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/btnUnlock";
+   lockAspectRatio = "1";
+   alignLeft = "1";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "1";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

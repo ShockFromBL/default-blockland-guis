@@ -1,0 +1,104 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(NetGraphGui) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "left";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+      noCursor = "1";
+
+   new GuiGraphCtrl(NetGraph) {
+      profile = "GuiDefaultProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "432 5";
+      extent = "200 200";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+   };
+   new GuiTextCtrl(Latency) {
+      profile = "NetGraphLatencyProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "436 184";
+      extent = "100 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Latency";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(PacketLoss) {
+      profile = "NetGraphPacketLossProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "536 184";
+      extent = "71 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Packet Loss";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(BitsReceived) {
+      profile = "NetGraphBitsReceivedProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "536 170";
+      extent = "100 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Bits Received";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(GhostsActive) {
+      profile = "NetGraphGhostsActiveProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "436 156";
+      extent = "100 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Ghosts Active";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(GhostUpdates) {
+      profile = "NetGraphGhostUpdatesProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "536 156";
+      extent = "100 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Ghost Updates";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(BitsSent) {
+      profile = "NetGraphBitsSentProfile";
+      horizSizing = "left";
+      vertSizing = "bottom";
+      position = "436 170";
+      extent = "100 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Bits Sent";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

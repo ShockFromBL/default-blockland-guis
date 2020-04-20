@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(CenterPrintText) {
+   profile = "BlockChatTextSize4Profile";
+   horizSizing = "right";
+   vertSizing = "center";
+   position = "0 0";
+   extent = "619 24";
+   minExtent = "28 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "1";
+   maxChars = "-1";
+   text = "<just:center>Center Print";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

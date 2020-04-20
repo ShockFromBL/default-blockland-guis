@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(MM_JoinButton) {
+   profile = "MainMenuButtonProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "0 240";
+   extent = "448 60";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "mainMenuGui.clickJoin();";
+   text = " ";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/btnJoinGame";
+   lockAspectRatio = "1";
+   alignLeft = "1";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "1";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,20 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiMLTextCtrl(crapo) {
+   profile = "GuiMLTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "16 44";
+   extent = "323 168";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   lineSpacing = "2";
+   allowColorChars = "1";
+   maxChars = "-1";
+   text = "To host an internet game, people need to have access to port 28000 on your computer.<br><br><lmargin%:5>1. <lmargin%:10>Make sure any security software you have installed is not blocking this port or Blockland.exe<br><br><lmargin%:5>2. <lmargin%:10>If you are behind a router or NAT device (if you have broadband, you probably are) you need to forward this port to your computer.<br><BR><lmargin%:5>Visit <a:www.blockland.us/portforward>http://www.Blockland.us/PortForward/</a> for more help.<br>";
+   maxBitmapHeight = "-1";
+   selectable = "1";
+   autoResize = "1";
+};
+//--- OBJECT WRITE END ---

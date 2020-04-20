@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiCursor(DefaultCursor) {
+   hotSpot = "1 1";
+   bitmapName = "~/client/ui/CUR_3darrow";
+};
+//--- OBJECT WRITE END ---

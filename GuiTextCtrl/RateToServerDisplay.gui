@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(RateToServerDisplay) {
+   profile = "GuiTextProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "93 106";
+   extent = "12 18";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "200";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

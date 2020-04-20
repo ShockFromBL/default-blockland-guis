@@ -1,0 +1,37 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiWindowCtrl(wrenchBot_LoadingWindow) {
+   profile = "BlockWindowProfile";
+   horizSizing = "center";
+   vertSizing = "center";
+   position = "202 191";
+   extent = "235 97";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "Loading...";
+   maxLength = "255";
+   resizeWidth = "0";
+   resizeHeight = "0";
+   canMove = "1";
+   canClose = "1";
+   canMinimize = "0";
+   canMaximize = "0";
+   minSize = "50 50";
+   closeCommand = "wrenchBot_LoadingWindow.setVisible(false);";
+
+   new GuiTextCtrl() {
+      profile = "MapDescriptionTextProfile";
+      horizSizing = "center";
+      vertSizing = "bottom";
+      position = "60 50";
+      extent = "115 18";
+      minExtent = "8 2";
+      enabled = "1";
+      visible = "1";
+      clipToParent = "1";
+      text = "Loading wrenchBot data...";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

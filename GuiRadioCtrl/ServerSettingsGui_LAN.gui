@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(ServerSettingsGui_LAN) {
+   profile = "ImpactRadioProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "350 70";
+   extent = "80 34";
+   minExtent = "8 2";
+   enabled = "0";
+   visible = "1";
+   clipToParent = "1";
+   command = "ServerSettingsGui.clickLAN();";
+   text = "LAN";
+   groupNum = "1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

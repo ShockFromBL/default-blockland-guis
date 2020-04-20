@@ -1,0 +1,17 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(OPT_TextureQuality3) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "23 52";
+   extent = "71 15";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "optionsDlg.setTextureQuality(3);";
+   text = "Low";
+   groupNum = "-1";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

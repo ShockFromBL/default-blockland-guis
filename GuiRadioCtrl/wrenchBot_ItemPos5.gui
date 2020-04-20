@@ -1,0 +1,16 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiRadioCtrl(wrenchBot_ItemPos5) {
+   profile = "GuiRadioProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "208 86";
+   extent = "27 22";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "0";
+   clipToParent = "1";
+   text = "W";
+   groupNum = "2";
+   buttonType = "RadioButton";
+};
+//--- OBJECT WRITE END ---

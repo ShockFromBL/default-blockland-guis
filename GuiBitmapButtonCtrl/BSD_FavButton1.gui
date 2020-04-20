@@ -1,0 +1,25 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(BSD_FavButton1) {
+   profile = "BlockButtonProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "262 3";
+   extent = "19 19";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "BSD_ClickFav(1);";
+   accelerator = "1";
+   text = "1";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/button2";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

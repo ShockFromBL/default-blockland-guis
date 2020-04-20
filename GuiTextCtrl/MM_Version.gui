@@ -1,0 +1,15 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiTextCtrl(MM_Version) {
+   profile = "BlockWindowProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "10 99";
+   extent = "330 30";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   text = "r1540";
+   maxLength = "255";
+};
+//--- OBJECT WRITE END ---

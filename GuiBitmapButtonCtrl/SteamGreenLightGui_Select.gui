@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiBitmapButtonCtrl(SteamGreenLightGui_Select) {
+   profile = "ImpactForwardButtonProfile";
+   horizSizing = "relative";
+   vertSizing = "relative";
+   position = "424 438";
+   extent = "216 42";
+   minExtent = "8 2";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "steamGreenLightGui.clickForward();";
+   text = "VOTE FOR BLOCKLAND >> ";
+   groupNum = "-1";
+   buttonType = "PushButton";
+   bitmap = "~/client/ui/btnBlank";
+   lockAspectRatio = "0";
+   alignLeft = "0";
+   alignTop = "0";
+   overflowImage = "0";
+   mKeepCached = "0";
+   mColor = "255 255 255 255";
+};
+//--- OBJECT WRITE END ---

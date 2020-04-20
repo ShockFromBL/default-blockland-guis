@@ -1,0 +1,19 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiSliderCtrl(SliderDefaultFOV) {
+   profile = "GuiSliderProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "265 181";
+   extent = "310 30";
+   minExtent = "8 8";
+   enabled = "1";
+   visible = "1";
+   clipToParent = "1";
+   command = "optionsDlg.updateFOV();";
+   altCommand = "optionsDlg.updateFOV();";
+   range = "75.000000 120.000000";
+   ticks = "44";
+   value = "90";
+   snap = "1";
+};
+//--- OBJECT WRITE END ---
